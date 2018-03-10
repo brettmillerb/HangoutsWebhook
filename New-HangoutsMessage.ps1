@@ -2,16 +2,13 @@ function New-HangoutsMessage {
     [CmdletBinding()]
 
     param (
-        [Parameter(Mandatory = $true,
-        Position = 0)]
+        [Parameter(Mandatory = $true)]
         [string]$title,
         
-        [Parameter(Mandatory = $true,
-            Position = 1)]
+        [Parameter(Mandatory = $true)]
         [string]$subtitle,
 
-        [Parameter(Mandatory = $true,
-            Position = 2)]
+        [Parameter(Mandatory = $false)]
         [string]$imageUrl
     )
     
